@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: discovery-server
-          image: vishal101090/discovery-service:latest
-          imagePullPolicy: IfNotPresent
+          image: vishal101090/discovery-server:latest
+          imagePullPolicy: Always
           env:
             - name: SERVER_PORT
               value: "5001"
